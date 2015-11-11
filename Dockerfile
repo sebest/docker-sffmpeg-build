@@ -9,6 +9,6 @@ RUN git clone https://github.com/pyke369/sffmpeg.git
 
 WORKDIR /sffmpeg
 
-VOLUME /sffmpeg/build/bin
+VOLUME /ffmpeg-bin
 
-CMD git pull && make
+CMD git pull && make && cp /sffmpeg/build/bin/ffmpeg /sffmpeg/build/bin/ffprobe /ffmpeg-bin
