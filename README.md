@@ -2,7 +2,7 @@
 
 This Docker image will build a static version of `ffmpeg` and `ffprobe` using [github.com/pyke369/sffmpeg](https://github.com/pyke369/sffmpeg).
 
-The binaries are Linux binaries and will be stored in `/sffmpeg/build/bin`.
+The binaries are Linux binaries and will be stored in `/sffmpeg-bin`.
 
 You must mount this directory to be get the binaries.
 
